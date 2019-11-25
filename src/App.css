@@ -1,0 +1,43 @@
+header{
+  text-align: center;
+  height: 90px;
+  background-color: rgb(72,45,67);
+  font-size: xx-large;
+  border: solid;
+  color: white;
+}
+
+.Container::after{
+  content: " ";
+  display: block;
+  clear:both;
+}
+main{
+  float: left;
+  width: 69%;
+  border: solid;
+}
+
+nav{
+  float: right;
+  width: 29%;
+  border: solid;
+}
+
+
+footer{
+  text-align: center;
+  height: 100px;
+  background-color: rgb(72,45,67);
+  font-size: xx-large;
+  border: solid;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  width:100%;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+}
