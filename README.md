@@ -1,8 +1,18 @@
-# learner
-The website is of a single page react web-application which fetches data from google news API and shows it in the navigation section. In the main section 
-of the website there are three blogposts and if you click on the title of the Blogpost you get to read about the post.
-Instruction on how to run the file
-1.Download the 'src' file which contains all the soure code of the react web-application
-2.In the terminal of your compiler type 'npm install --g create-react-app'which will download the react web-application.
-3.After completion of step 3 type 'npm start'
-4.In the react folder replace the 'src' folder with the 'src' you have downloaded.
+# dockerImplementation
+I created a Restful webservice using Node js and json database that runs in a docker whose image id is in this repository in package.
+The data model is:
+
+
+The database consists of four different car companies (http://localhost:8000/companies).
+
+
+Each car company in the database is defined by its manufactured cars, the name of the company and the company id (http://localhost:8000/companies/(1 – 4)).
+
+
+Each company has four of its manufactured cars in the database (http://localhost:8000/companies/(1 – 4)/cars).
+
+
+Each car is further defined by its specifications like Engine, Transmission, Drivetrain and price (http://localhost:8000/companies/(1 – 4)/cars/(1 - 4)).
+
+
+The data returned n the web service routes is in json form .
